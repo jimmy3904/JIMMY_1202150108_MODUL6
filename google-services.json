@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "119411102711",
+    "firebase_url": "https://mod6-adadf.firebaseio.com",
+    "project_id": "mod6-adadf",
+    "storage_bucket": "mod6-adadf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119411102711:android:16bc22cac9d8ffc2",
+        "android_client_info": {
+          "package_name": "com.example.jm.jimmy_1202150108_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119411102711-2fvjk1em3kghaak23oku99sa6rdpr2q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVuqTywjIHjDE0zN1B9ad-9ER9G8XzE2o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
