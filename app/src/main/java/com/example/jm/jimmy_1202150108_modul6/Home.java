@@ -34,12 +34,11 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         vp = findViewById(R.id.vp);
-        tl = findViewById(R.id.tabs);
         ab = findViewById(R.id.appbar);
-        tbr = findViewById(R.id.tb);
+        //tbr = findViewById(R.id.tb);
         auth = FirebaseAuth.getInstance();
 
-        setSupportActionBar(tbr);
+        //setSupportActionBar(tbr);
         setupPager(vp);
     }
 

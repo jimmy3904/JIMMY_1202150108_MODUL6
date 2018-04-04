@@ -16,7 +16,7 @@
             android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/postgambarnya"
-            android:src="@drawable/ic_launcher_foreground"
+            android:src="@drawable/tambah"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
         <TextView

@@ -30,14 +30,14 @@ public class adapterPost extends RecyclerView.Adapter<adapterPost.PostViewHolder
 
     @Override
     public void onBindViewHolder(PostViewHolder holder, int position) {
-    databasePost current = list.get(position);
-    String [] user = current.user.split("@");
-    holder.user.setText(user[0]);
-    holder.user.setTag(current.getKey());
-    holder.judul.setText(current.getJudul());
-    holder.caption.setText(current.getCaption());
-    holder.caption.setTag(current.getImage());
-        Glide.with(con).load(current.getImage()).placeholder(R.drawable.ic_launcher_foreground).override(450, 450).into(holder.image);
+        databasePost current = list.get(position);
+        String [] user = current.user.split("@");
+        holder.user.setText(user[0]);
+        holder.user.setTag(current.getKey());
+        holder.judul.setText(current.getJudul());
+        holder.caption.setText(current.getCaption());
+        holder.caption.setTag(current.getImage());
+        Glide.with(con).load(current.getImage()).placeholder(R.drawable.tambah).override(450, 450).into(holder.image);
 
     }
 

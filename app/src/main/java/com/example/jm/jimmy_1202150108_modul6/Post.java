@@ -39,6 +39,7 @@ public class Post extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
+        setTitle("Binstagram");
 
         user = findViewById(R.id.yangupload);
         image = findViewById(R.id.gambardaripost);
